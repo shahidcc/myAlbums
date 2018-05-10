@@ -16,8 +16,6 @@ React Native app that displays a catalog of music albums on an Android device.
 | [React Native](http://facebook.github.io/react-native/releases/0.32/) |  Build Native Mobile Apps using JavaScript and React. |
 | [Codepush](https://nodejs.org/) | Over The Air (OTA) app upgrade |
 | [Axios](https://nodejs.org/) | Network library for HTTP/HTTPS calls |
-| [Redux](https://nodejs.org/) | Predictable state container for JavaScript apps.  |
-| [Redux Thunk](https://github.com/gaearon/redux-thunk) | Thunk middleware for Redux | 
 | [ESLint](http://eslint.org/) | The pluggable linting utility for JavaScript and JSX |
 
 ### Requirements
@@ -38,5 +36,5 @@ React Native app that displays a catalog of music albums on an Android device.
    It will download and install all dependencies including 3rd-party libraries and tools. 
 2. Run:  react-native run-android
 
-### Installation
-1. Server URL for contents may change anytime. You may need to host your content on some server and use that URL in AlbumList file. 
+### Key points to note 
+1. Server URL for contents may change anytime. You mat have to host content on your server and use that URL in AlbumList.js. 
