@@ -8,7 +8,7 @@ React Native app that displays a catalog of music albums on an Android device.
 - Silent app upgrade using Codepush 
 
 ### Download APK file
- - [Download from Google Drive - v2.2.1](http://bit.ly/2s9UdxG)
+ - [Download from Google Drive - v2.2.1](https://drive.google.com/file/d/19MiAENXKF6DbE8j4BiTLcO836k8IINLf/view?usp=sharing)
 
 ### What's included
 | Name             | Description   |
