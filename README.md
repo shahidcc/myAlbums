@@ -32,3 +32,6 @@ Tools required:
 4. Android Studio (includes ADB Manager for creating device emualtors) 
 5. Visual Source Code or Atom
 
+To run debug build on simulator:
+1. From app folder, run:   npm install
+2. Run: react-native run-android
