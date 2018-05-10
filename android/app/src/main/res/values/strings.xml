@@ -1,0 +1,4 @@
+<resources>
+  <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">z5XApVyoRcZJCpK8bCji_rpt9GJgrkKA6Tfhf</string>
+  <string name="app_name">myAlbums</string>
+</resources>

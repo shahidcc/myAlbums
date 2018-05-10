@@ -1,0 +1,48 @@
+package com.myalbums;
+
+import com.facebook.react.ReactActivity;
+import com.facebook.react.bridge.Callback;
+import com.facebook.react.bridge.Promise;
+import com.facebook.react.bridge.WritableMap;
+import com.facebook.react.bridge.Arguments;
+import com.facebook.react.bridge.ReactApplicationContext;
+import com.facebook.react.bridge.ReactContextBaseJavaModule;
+import com.facebook.react.bridge.ReactMethod;
+import java.lang.Exception; 
+
+public class MyAlbumsBizLogic extends ReactContextBaseJavaModule {
+    public MyAlbumsBizLogic(ReactApplicationContext reactContext){
+        super(reactContext);
+    }
+
+    @Override
+    public  String getName() {
+        return "MyAlbumsBizLogic";
+    }
+
+    //public void isAvailable(String name, Promise promise) {
+
+    @ReactMethod
+    public void isAvailable(String name, Callback errorCallback, Callback callback) {
+        try {
+            String availability = "yes";
+            System.out.println(".... BizLogic: name - " + name + ", availability - "+ availability);
+            
+            if (name.equals("Taylor Swift") || name.equals("Red")) 
+                availability = "no"; 
+            //System.out.println(".... BizLogic: name - " + name + ", availability - "+ availability);
+
+            WritableMap map = Arguments.createMap();
+            map.putString("availability", availability);
+            System.out.println(".... BizLogic: availability from map - " + map.getString("availability"));
+            callback.invoke(availability);
+            //callback.invoke(map);    
+            //promise.resolve(map);
+            //promise.resolve(availability);
+            
+        } catch (Exception e) {
+            errorCallback.invoke(e);
+            //promise.reject("Exception, e");
+        }
+    }
+}
