@@ -25,7 +25,7 @@ React Native app that displays a catalog of music albums on an Android device.
 - [npm](https://npmjs.com) >= 3
 
 ### Installation
-# Tools required:
+#### Tools required:
 1. Java JDK
 2. Python 2
 3. Node JS (includes npm)
@@ -33,7 +33,7 @@ React Native app that displays a catalog of music albums on an Android device.
 5. Android Studio (includes ADB Manager for creating device emualtors) 
 6. Visual Source Code or Atom IDE
 
-# To run debug build on simulator:
+#### To run debug build on simulator:
 1. From app folder, run:  npm install
    It will download and install all dependencies including 3rd-party libraries and tools. 
 2. Run:  react-native run-android
