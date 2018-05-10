@@ -2,7 +2,7 @@
 React Native app that displays a catalog of music albums on an Android device.
 
 ### Main features:
-- Card metaphor, flex layout, image display, text styling, action button, url launch etc. 
+- Card design, flexbox layout, image display, text styling, action button, url launch etc. 
 - Network calls to retrieve content
 - Communication with native Java using Callback as well as Promises
 - Silent app upgrade using Codepush 
@@ -36,3 +36,6 @@ To run debug build on simulator:
 1. From app folder, run:  npm install
    It will download and install all dependencies including 3rd-party libraries and tools. 
 2. Run:  react-native run-android
+
+### Installation
+1. Server URL for contents may change anytime. You may need to host your content on some server and use that URL in AlbumList file. 
